@@ -20,7 +20,7 @@ else {
 
 function ageChecker(age)
  {
-  if(age <= 19 && age => 13)
+  if(age <= 19 && age >= 13)
   {
   console.log(`You are a teenager!`)
 }
@@ -53,7 +53,7 @@ function switchAge(age)
       default :
       return "You have an age";
       break;
-      
+
 
 }
 }
