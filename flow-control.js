@@ -22,12 +22,17 @@ function ageChecker(age)
  {
   if(age >= 13 && age <= 19)
   {
-  return 'you are a teenager!'
+  console.log(`You are a teenager!`)
 }
-return false
+else if (age < 13)
+ {
+  console.log ('you are a kid')
 }
-ageChecker('You are a teenager')
-
+else
+{
+  return "You are a grownup":
+}
+}
 
 function ternaryTeenager(age)
  {
