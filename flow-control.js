@@ -30,13 +30,13 @@ console.log('you are a kid')
 }
 else
 {
-console.log('You are a grownup')
+return('You are a grownup')
 }
 }
 
 function ternaryTeenager(age)
  {
-return(`You are not a teenager`)
+return(`You are a teenager`)
 
   if (age >= 13 && age <= 19)
   {
