@@ -20,13 +20,14 @@ else {
 
 function ageChecker(age)
  {
+  var age 
   if(age >= 13 && age <= 19)
   {
-  console.log(`You are a teenager!`)
+  age =(`You are a teenager!`)
 }
 else if (age < 13)
  {
-  console.log ('you are a kid')
+  age= ('you are a kid')
 }
 else
 {
